@@ -1,0 +1,1 @@
+pandoc ../pandoc.md -o pandoc.html --template template.html --include-in-header header.html --include-before-body navbar.html --include-after-body footer.html --standalone --mathjax --toc --toc-depth 2
