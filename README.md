@@ -13,3 +13,5 @@ Noviembre de 19:30 a 21:30:
 
 - Presencialmente: en la ETSIIT de la Univerisdad de Granada, en el aula 0.6.
 - Virtualmente: en Youtube (enlace por confirmar).
+
+![](pandoc_cartel.png)
