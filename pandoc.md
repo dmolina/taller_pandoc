@@ -147,7 +147,7 @@ Todo enseñado en el taller[^1]
      12     12        12            12
  1234     1234       1234          1234
 
-Table:  Demonstration of simple table syntax.
+Tabla:  Demostración de una tabla sencilla
 ```
 
   Right     Left     Center     Default
@@ -155,7 +155,7 @@ Table:  Demonstration of simple table syntax.
      12     12        12            12
    1234     1234     1234          1234
 
-Table:  Demonstration of simple table syntax.
+Tabla:  Demostración de una tabla sencilla
 
 ## Incluir código fuente y tablas
 
