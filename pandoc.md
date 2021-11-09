@@ -2,9 +2,6 @@
 % Daniel Molina
 % Charla/Taller
 
-```{=latex}
-%\newpage
-```
 # ¿Qué es pandoc? 
 
 ## Multiconversor de archivos
