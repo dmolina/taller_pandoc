@@ -12,8 +12,8 @@ pandoc_warsaw.pdf: pandoc.md
 pandoc_berlin.pdf: pandoc.md
 	pandoc -Vtheme=Berlin pandoc.md -V urlcolor=blue -V linkcolor=white -M latex.yaml -t beamer --slide-level=2 -o pandoc_berlin.pdf
 
-pandoc.pdf: pandoc.md
-	pandoc pandoc.md -Vgeometry:margin=3cm --toc -Vtoc-title:"Contenido" -o pandoc_doc.pdf
+pandoc_doc.pdf: pandoc.md
+	pandoc pandoc.md --metadata-file=latex_doc.yaml -Vgeometry:margin=3cm --toc -Vtoc-title:"Contenido" --template=mylatex.markdown -o pandoc_doc.pdf
 
 clean:
 	bash clear.sh

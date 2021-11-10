@@ -1,0 +1,8 @@
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \lhead{Taller de Pandoc}
+    \rhead{Markdown es la caña}
+    \rfoot{Página \thepage}
+toc: true
+toc-depth: 2
