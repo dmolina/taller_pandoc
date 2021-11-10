@@ -1,6 +1,8 @@
-% Pandoc al rescate 
-% Daniel Molina
-% Charla/Taller
+---
+title: Pandoc al rescate 
+author: Daniel Molina
+date: Charla/Taller
+---
 
 # ¿Qué es pandoc? 
 
@@ -16,6 +18,20 @@
 
 - Este documento está exportado a HTML, PDF (Latex) y transparencias (Beamer).
 
+<https://github.com/dmolina/taller_pandoc>
+
+## Generar esta presentación
+
+```sh
+make all # o make html para la presentación web
+```
+
+Puede regenerarse al editar el md
+
+```sh
+ls pandoc.md | entr make pandoc.html
+```
+
 # Instalación
 
 ## Para este
@@ -26,7 +42,9 @@
 
 - pandoc versión 2.14 (es la mía, puede funcionar en otras).
 
-- pdflatex, para crear los PDFs de documentos y transparencias.
+- latex, para crear los PDFs.
+
+- make (para usar makefile).
 
 - python3, para poder instalar las extensiones:
    - pandoc-include: Incluya otro.
@@ -176,6 +194,27 @@ Hay entornos y extensiones para ejecutar el código: **Rmarkdown**, **pandoc-run
 Markdown de Pandoc admite otros elementos, descritos en [^2].
 
 [2] https://garrettgman.github.io/rmarkdown/authoring_pandoc_markdown.html
+
+# Es muy sencillo
+
+## Sintaxis de pandoc
+
+```sh
+# Exporta en html (el -s es para crear la web completa)
+pandoc -s pandoc.md -o pandoc.html
+# exporta en LibreOffice (va mejor que en Word)
+pandoc pandoc.md -o pandoc.odt
+# exporta en pdf usando latex (documento) 
+pandoc pandoc.md -t latex -o pandoc.pdf
+# exporta en transparencias en pdf usando beamer
+pandoc pandoc.md -t beamer -o pandoc.pdf
+# exporta en transparencias con algunas opciones
+pandoc pandoc.md -t beamer -Vtheme= -o pandoc.pdf
+```
+
+. . . 
+
+Hay muchas opciones, se puede complicar, lo vemos en detalle con el taller.
 
 # A continuación
 
