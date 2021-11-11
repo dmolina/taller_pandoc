@@ -8,10 +8,16 @@ sencillas para generar documentación y transparencias.
 
 https://osl.ugr.es/2021/11/03/taller-de-pandoc.
 
-El taller se impartirá el día 10 de
-Noviembre de 19:30 a 21:30:
+A continuación incluyo el video de la charla:
+
+![![](pandoc_video.png)](https://www.youtube.com/watch?v=KBj7YqbrDJY)
+
+El taller se impartio el día 10 de Noviembre de 19:30 a 21:30:
 
 - Presencialmente: en la ETSIIT de la Univerisdad de Granada, en el aula 0.6.
-- Virtualmente: en Youtube (enlace por confirmar).
+- Virtualmente: en Youtube (https://www.youtube.com/watch?v=KBj7YqbrDJY).
 
 ![](pandoc_cartel.png)
+
+
+
