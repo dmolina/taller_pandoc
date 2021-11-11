@@ -10,7 +10,7 @@ https://osl.ugr.es/2021/11/03/taller-de-pandoc.
 
 A continuación incluyo el video de la charla:
 
-![![](pandoc_video.png)](https://www.youtube.com/watch?v=KBj7YqbrDJY)
+[![](https://raw.githubusercontent.com/dmolina/taller_pandoc/master/pandoc_video.png)](https://www.youtube.com/watch?v=KBj7YqbrDJY)
 
 El taller se impartio el día 10 de Noviembre de 19:30 a 21:30:
 
