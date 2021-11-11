@@ -77,10 +77,10 @@ ls pandoc.md | entr make pandoc.html
 ## Tipo de fuente
 
 ```markdown
-Es sencillo poner **negritas**, **cursiva** y ~~tachar~~.
+Es sencillo poner **negritas**, *cursiva* y ~~tachar~~.
 ```
 
-Es sencillo poner **negritas**, **cursiva** y ~~tachar~~.
+Es sencillo poner **negritas**, *cursiva* y ~~tachar~~.
 
 ## Enlaces
 
